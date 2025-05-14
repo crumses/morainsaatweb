@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mora İnşaat</title>
+  <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+<body>
+
+
+<header class="header">
+  <nav class="navbar">
+    <div class="logo">
+      <img src="resimler/morainsaatlogo.png" alt="Logo">
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Anasayfa</a></li>
+      <li class="dropdown-parent">
+        <a href="#">Projeler</a>
+        <ul class="dropdown">
+          <li><a href="moramanzara.html">Mora Manzara</a></li>
+          <li><a href="morarezidans.html">Mora Rezidans</a></li>
+          <li><a href="moravilla.html">Mora Villaları</a></li>
+          <li><a href="moraplaza.html">Mora Plaza</a></li>
+          <li><a href="moratophane.html">Mora Tophane</a></li>
+        </ul>
+      </li>
+      <li><a href="hakkimizda.html">Kurumsal</a></li>
+      <li><a href="iletisim.html">İletişim</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+
+
+
+<div id="top"></div>
+
+
+<!-- Hero Alanı -->
+<section class="galeri-hero" style="background-image: url('Rezidans/dis1.jpg');">
+  <h1>Mora Rezidans</h1>
+</section>
+
+<!-- Başlık ve Açıklama -->
+<section class="galeri-text-container">
+  <h2 class="galeri-baslik">Proje Detayları</h2>
+  <p class="galeri-aciklama">
+    Aşağıda iç mekan, dış mekan ve proje planı çalışmalarımızı filtreleyerek görüntüleyebilirsiniz.
+  </p>
+
+  <div class="galeri-ozellikler">
+    <div class="galeri-ozellik">
+      <i class="fas fa-vector-square"></i>
+      <span>350 m² / 450 m²</span>
+    </div>
+    <div class="galeri-ozellik">
+      <i class="fas fa-door-open"></i>
+      <span>4 + 1 Daire / 5 + 1 Daire</span>
+    </div>
+    <div class="galeri-ozellik">
+      <i class="fas fa-building"></i>
+      <span>3 Katlı / 4 Katlı</span>
+    </div>
+    <div class="galeri-ozellik">
+      <i class="fas fa-calendar-alt"></i>
+      <span>2 Yılda Tamamlandı</span>
+    </div>
+    <div class="galeri-ozellik">
+      <i class="fas fa-map-marker-alt"></i>
+      <span>Gölbaşı , Ankara</span>
+    </div>
+  </div>
+</section>
+
+<!-- filtreleme şeklisi -->
+<div class="galeri-filtreler">
+  <button class="galeri-filtre-btn active" data-filter="hepsi">Hepsi</button>
+  <button class="galeri-filtre-btn" data-filter="ic-mekan">İç Mekan</button>
+  <button class="galeri-filtre-btn" data-filter="dis-mekan">Dış Mekan</button>
+  <button class="galeri-filtre-btn" data-filter="proje-plani">Proje Planı</button>
+</div>
+
+<!-- gallllllleri -->
+<div class="galeri-grid">
+  <div class="galeri-item dis-mekan">
+    <img src="Rezidans/dis1.jpg" alt="Dış Mekan 1" onclick="openLightbox(0)">
+  </div>
+   <div class="galeri-item dis-mekan">
+    <img src="Rezidans/dis2.jpg" alt="Dış Mekan 2" onclick="openLightbox(1)">
+  </div>
+   <div class="galeri-item dis-mekan">
+    <img src="Rezidans/dis3.jpg" alt="Dış Mekan 3" onclick="openLightbox(2)">
+  </div>
+   <div class="galeri-item dis-mekan">
+    <img src="Rezidans/dis4.jpg" alt="Dış Mekan 4" onclick="openLightbox(3)">
+  </div>
+   <div class="galeri-item dis-mekan">
+    <img src="rezidans/dis5.jpg" alt="Dış Mekan 5" onclick="openLightbox(4)">
+  </div>
+   <div class="galeri-item dis-mekan">
+    <img src="rezidans/dis6.jpg" alt="Dış Mekan 6" onclick="openLightbox(5)">
+  </div>
+   <div class="galeri-item dis-mekan">
+    <img src="rezidans/dis7.jpg" alt="Dış Mekan 7" onclick="openLightbox(6)">
+  </div>
+   <div class="galeri-item dis-mekan">
+    <img src="rezidans/dis8.jpg" alt="Dış Mekan 8" onclick="openLightbox(7)">
+  </div>
+   <div class="galeri-item dis-mekan">
+    <img src="rezidans/dis9.jpg" alt="Dış Mekan 9" onclick="openLightbox(8)">
+  </div>
+   <div class="galeri-item dis-mekan">
+    <img src="rezidans/dis10.jpg" alt="Dış Mekan 9" onclick="openLightbox(9)">
+  </div>
+  <div class="galeri-item dis-mekan">
+  <img src="Rezidans/dis11.jpg" alt="Dış Mekan 10" onclick="openLightbox(10)">
+</div>
+<div class="galeri-item dis-mekan">
+  <img src="Rezidans/dis12.jpg" alt="Dış Mekan 11" onclick="openLightbox(11)">
+</div>
+<div class="galeri-item dis-mekan">
+  <img src="Rezidans/dis13.jpg" alt="Dış Mekan 12" onclick="openLightbox(12)">
+</div>
+<div class="galeri-item ic-mekan">
+  <img src="Rezidans/ic4.jpg" alt="İç Mekan 4" onclick="openLightbox(13)">
+</div>
+<div class="galeri-item ic-mekan">
+  <img src="Rezidans/ic5.jpg" alt="İç Mekan 5" onclick="openLightbox(14)">
+</div>
+<div class="galeri-item ic-mekan">
+  <img src="Rezidans/ic6.jpg" alt="İç Mekan 6" onclick="openLightbox(15)">
+</div>
+<div class="galeri-item ic-mekan">
+  <img src="Rezidans/ic7.jpg" alt="İç Mekan 7" onclick="openLightbox(16)">
+</div>
+<div class="galeri-item ic-mekan">
+  <img src="Rezidans/ic8.jpg" alt="İç Mekan 8" onclick="openLightbox(17)">
+</div>
+<div class="galeri-item ic-mekan">
+  <img src="Rezidans/ic9.jpg" alt="İç Mekan 9" onclick="openLightbox(18)">
+</div>
+<div class="galeri-item ic-mekan">
+  <img src="Rezidans/ic10.jpg" alt="İç Mekan 10" onclick="openLightbox(19)">
+</div>
+<div class="galeri-item ic-mekan">
+  <img src="Rezidans/ic11.jpg" alt="İç Mekan 11" onclick="openLightbox(20)">
+</div>
+<div class="galeri-item ic-mekan">
+  <img src="Rezidans/ic12.jpg" alt="İç Mekan 12" onclick="openLightbox(21)">
+</div>
+<div class="galeri-item ic-mekan">
+  <img src="Rezidans/ic13.jpg" alt="İç Mekan 13" onclick="openLightbox(22)">
+</div>
+<div class="galeri-item ic-mekan">
+  <img src="Rezidans/ic14.jpg" alt="İç Mekan 14" onclick="openLightbox(23)">
+</div>
+<div class="galeri-item ic-mekan">
+  <img src="Rezidans/ic15.jpg" alt="İç Mekan 15" onclick="openLightbox(24)">
+</div>
+<div class="galeri-item ic-mekan">
+  <img src="Rezidans/ic16.jpg" alt="İç Mekan 16" onclick="openLightbox(25)">
+</div>
+<div class="galeri-item ic-mekan">
+  <img src="Rezidans/ic17.jpg" alt="İç Mekan 17" onclick="openLightbox(26)">
+</div>
+<div class="galeri-item ic-mekan">
+  <img src="Rezidans/ic18.jpg" alt="İç Mekan 18" onclick="openLightbox(27)">
+</div>
+<div class="galeri-item ic-mekan">
+  <img src="Rezidans/ic19.jpg" alt="İç Mekan 19" onclick="openLightbox(28)">
+</div>
+<div class="galeri-item ic-mekan">
+  <img src="Rezidans/ic20.jpg" alt="İç Mekan 20" onclick="openLightbox(29)">
+</div>
+<div class="galeri-item ic-mekan">
+  <img src="Rezidans/ic21.jpg" alt="İç Mekan 21" onclick="openLightbox(30)">
+</div>
+<div class="galeri-item ic-mekan">
+  <img src="Rezidans/ic22.jpg" alt="İç Mekan 22" onclick="openLightbox(31)">
+</div>
+<div class="galeri-item ic-mekan">
+  <img src="Rezidans/ic1.jpg" alt="İç Mekan 23" onclick="openLightbox(32)">
+</div>
+<div class="galeri-item ic-mekan">
+  <img src="Rezidans/ic2.jpg" alt="İç Mekan 24" onclick="openLightbox(33)">
+</div>
+<div class="galeri-item ic-mekan">
+  <img src="Rezidans/ic3.jpg" alt="İç Mekan 25" onclick="openLightbox(34)">
+</div>  
+</div>
+
+<!-- Lightbox Modal -->
+<div id="lightbox" class="lightbox">
+  <span class="close" onclick="closeLightbox()">&times;</span>
+  <div class="lightbox-carousel">
+    <div class="lightbox-carousel-inner" id="carouselInner">
+      <!-- dinamik görsel -->
+    </div>
+    <div class="lightbox-controls">
+      <span class="prev" onclick="changeImage(-1)">&#10094;</span>
+      <span class="next" onclick="changeImage(1)">&#10095;</span>
+    </div>
+  </div>
+</div>
+
+<!-- Lightbox Stil -->
+<style>
+  .lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+
+  .lightbox-carousel {
+    max-width: 80%;
+    max-height: 80%;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+  }
+
+  .lightbox-carousel-inner {
+    display: flex;
+    transition: transform 0.4s ease;
+  }
+
+  .lightbox-carousel-inner img {
+    max-width: 100%;
+    max-height: 80vh;
+    display: block;
+  }
+
+  .lightbox .prev,
+  .lightbox .next {
+    font-size: 3rem;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    padding: 0 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .lightbox .prev { left: 10px; }
+  .lightbox .next { right: 10px; }
+
+  .lightbox .close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+  }
+
+  @media (max-width: 768px) {
+    .galeri-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+    }
+  }
+</style>
+<script>
+  // Filtreleme Script
+  document.querySelectorAll('.galeri-filtre-btn').forEach(button => {
+    button.addEventListener('click', () => {
+      document.querySelector('.galeri-filtre-btn.active').classList.remove('active');
+      button.classList.add('active');
+      const filter = button.getAttribute('data-filter');
+
+      document.querySelectorAll('.galeri-item').forEach(item => {
+        if (filter === 'hepsi' || item.classList.contains(filter)) {
+          item.style.display = 'block';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    });
+  });
+</script>
+
+<script>
+  let currentIndex = 0;
+  let allImages = [];
+
+  document.addEventListener('DOMContentLoaded', () => {
+    allImages = Array.from(document.querySelectorAll('.galeri-item img'));
+
+    allImages.forEach((img, index) => {
+      img.addEventListener('click', () => {
+        currentIndex = index;
+        openLightbox(currentIndex);
+      });
+    });
+
+    document.getElementById('simpleLightbox').addEventListener('click', (e) => {
+      if (e.target.id === 'simpleLightbox') {
+        closeLightbox();
+      }
+    });
+
+    document.getElementById('prevBtn').addEventListener('click', (e) => {
+      e.stopPropagation(); // lightbox'ı kapatmaması için
+      currentIndex = (currentIndex - 1 + allImages.length) % allImages.length;
+      updateLightboxImage();
+    });
+
+    document.getElementById('nextBtn').addEventListener('click', (e) => {
+      e.stopPropagation();
+      currentIndex = (currentIndex + 1) % allImages.length;
+      updateLightboxImage();
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (document.getElementById('simpleLightbox').style.display === 'flex') {
+        if (e.key === 'Escape') closeLightbox();
+        if (e.key === 'ArrowRight') {
+          currentIndex = (currentIndex + 1) % allImages.length;
+          updateLightboxImage();
+        }
+        if (e.key === 'ArrowLeft') {
+          currentIndex = (currentIndex - 1 + allImages.length) % allImages.length;
+          updateLightboxImage();
+        }
+      }
+    });
+  });
+
+  function openLightbox(index) {
+    const lightbox = document.getElementById('simpleLightbox');
+    lightbox.style.display = 'flex';
+    updateLightboxImage();
+  }
+
+  function updateLightboxImage() {
+    const imgElement = document.getElementById('lightboxImage');
+    imgElement.src = allImages[currentIndex].src;
+  }
+
+  function closeLightbox() {
+    document.getElementById('simpleLightbox').style.display = 'none';
+  }
+</script>
+
+
+
+
+<div id="simpleLightbox" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%;
+     background:rgba(0,0,0,0.8); justify-content:center; align-items:center; z-index:9999;">
+  
+  <button id="prevBtn" style="position:absolute; left:20px; font-size:30px; color:white; background:none; border:none; cursor:pointer;">&#10094;</button>
+  <img id="lightboxImage" src="" style="max-width:90%; max-height:90%;" />
+  <button id="nextBtn" style="position:absolute; right:20px; font-size:30px; color:white; background:none; border:none; cursor:pointer;">&#10095;</button>
+</div>
+
+<script>
+  function adjustBodyPadding() {
+    const header = document.querySelector('.header');
+    if (header) {
+      const headerHeight = header.offsetHeight;
+      document.body.style.paddingTop = headerHeight + 'px';
+    }
+  }
+
+  // Sayfa yüklendiğinde ve pencere yeniden boyutlandığında çalıştır
+  window.addEventListener('load', adjustBodyPadding);
+  window.addEventListener('resize', adjustBodyPadding);
+</script>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-container">
+    
+    <div class="footer-section logo-section">
+      <div class="logo-content">
+        
+        <h3>Mora İnşaat</h3>
+        <p>Kalite ve Güvenin Adresi</p>
+        <img src="resimler/morainsaat.png" alt="Mora İnşaat Logo" class="footer-logo">
+      </div>
+    </div>
+
+  
+    <div class="footer-section middle-section">
+      <h4>Hızlı Erişim</h4>
+      <ul>
+        <li><a href="#anasayfa">Anasayfa</a></li>
+        <li><a href="#projeler">Projeler</a></li>
+        <li><a href="#kurumsal">Kurumsal</a></li>
+        <li><a href="#iletisim">İletişim</a></li>
+      </ul>
+    </div>
+
+    
+    <div class="footer-section contact-section">
+      <h4>İletişim</h4>
+      <p>Adres: The Paragon Tower İş Merkezi
+              No: 3 Kat: 25 Ofis: 125
+
+              Çukurambar/Ankara</p>
+      <p>Telefon: <br>+90 312 473 89 89
+        </p>
+      <p>Email: <br>info@morainsaat.com</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Mora İnşaat. Tüm hakları saklıdır.</p>
+  </div>
+</footer>
+
+
+
+<a href="#top" id="scrollToTopBtn" title="Yukarı Çık">⬆</a>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
